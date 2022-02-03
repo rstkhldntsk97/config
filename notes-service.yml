@@ -1,4 +1,6 @@
 spring:
+  jpa:
+    show-sql: true
   datasource:
     url: jdbc:postgresql://localhost:3306/spring-cloud
     username: postgres
@@ -12,4 +14,5 @@ eureka:
     prefer-ip-address: true
 
 server:
-  port: 8082 
+  port: 8082
+
