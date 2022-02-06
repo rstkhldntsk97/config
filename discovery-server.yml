@@ -1,0 +1,15 @@
+  datasource:
+    url: jdbc:postgresql://localhost:5432/users_db
+    username: postgres
+    password: 5ba7b97b7f9389045bb21c4c1df31ba8681d83abd073c7e0ebb7888507a597c2
+    password: '{cipher}5ba7b97b7f9389045bb21c4c1df31ba8681d83abd073c7e0ebb7888507a597c2'
+
+eureka:
+  client:
+    sevice-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    instance-id: ${spring.application.name}:${spring.application/inctance_id:${random.value}}
+    prefer-ip-address: true
+server:
+  port: ${PORT:0}
