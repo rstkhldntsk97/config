@@ -12,7 +12,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/users_db
     username: postgres
-    password: 5ba7b97b7f9389045bb21c4c1df31ba8681d83abd073c7e0ebb7888507a597c2
+    password: {cipher}5ba7b97b7f9389045bb21c4c1df31ba8681d83abd073c7e0ebb7888507a597c2
 
 eureka:
   client:
