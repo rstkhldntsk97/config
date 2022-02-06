@@ -19,6 +19,4 @@ eureka:
 
 server:
   port: ${PORT:8082}
-  
-token:
-  secret: newsecrettoken
+

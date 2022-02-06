@@ -1,8 +1,6 @@
 server:
   port: 8084
-  
-token:
-  secret: newsecrettoken
+
 
 eureka:
   client:
@@ -11,12 +9,7 @@ eureka:
   instance:
     prefer-ip-address: true
 
-spring:
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+#spring:
 #  cloud:
 #    gateway:
 #      discovery:
