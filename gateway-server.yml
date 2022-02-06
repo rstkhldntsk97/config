@@ -1,6 +1,8 @@
 server:
   port: 8084
-
+  
+token:
+  secret: 12dfhgsfdgaedgvsdavdse1111
 
 eureka:
   client:
