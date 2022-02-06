@@ -17,10 +17,10 @@ spring:
     port: 5672
     username: guest
     password: guest
-  cloud:
-    gateway:
-      discovery:
-        locator:
+#  cloud:
+#    gateway:
+#      discovery:
+#        locator:
 #          enabled: true
 #          lower-case-service-id: true
 
