@@ -21,4 +21,4 @@ server:
   port: ${PORT:8082}
   
 token:
-  secret: 12dfhgsfdgaedgvsdavdse1111
+  secret: newsecrettoken
